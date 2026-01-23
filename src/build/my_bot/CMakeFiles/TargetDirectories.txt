@@ -1,0 +1,9 @@
+/home/uk935/dev_ws/src/build/my_bot/CMakeFiles/uninstall.dir
+/home/uk935/dev_ws/src/build/my_bot/CMakeFiles/my_bot_uninstall.dir
+/home/uk935/dev_ws/src/build/my_bot/CMakeFiles/test.dir
+/home/uk935/dev_ws/src/build/my_bot/CMakeFiles/edit_cache.dir
+/home/uk935/dev_ws/src/build/my_bot/CMakeFiles/rebuild_cache.dir
+/home/uk935/dev_ws/src/build/my_bot/CMakeFiles/list_install_components.dir
+/home/uk935/dev_ws/src/build/my_bot/CMakeFiles/install.dir
+/home/uk935/dev_ws/src/build/my_bot/CMakeFiles/install/local.dir
+/home/uk935/dev_ws/src/build/my_bot/CMakeFiles/install/strip.dir

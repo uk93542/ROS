@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000160] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.000183] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.014066] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.016876] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/uk935/dev_ws/src/my_bot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/uk935/dev_ws/src/install/my_bot'], 'cwd': '/home/uk935/dev_ws/src/build/my_bot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'uk935', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/uk935/ros2_ws/install/my_robot_interfaces/lib:/home/uk935/ros2_ws/install/battery_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{f9616251-eacc-56f0-84c4-5ba65a5b034d}', 'HOME': '/home/uk935', 'OLDPWD': '/home/uk935/dev_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/uk935/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'uk935', 'NAME': 'DESKTOP-NGMI2BI', 'WSL_INTEROP': '/run/WSL/470_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/uk935/.local/bin:/home/uk935/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/uk935/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/uk935/anaconda3:/mnt/c/Users/uk935/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/uk935/anaconda3/Library/usr/bin:/mnt/c/Users/uk935/anaconda3/Library/bin:/mnt/c/Users/uk935/anaconda3/Scripts:/mnt/c/Users/uk935/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/uk935/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/uk935/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/uk935/OneDrive:/mnt/c/Users/uk935/OneDrive/Documents/adobe illus:/mnt/c/MinGW/bin:/snap/bin', 'WT_SESSION': 'd2fd30e5-e116-477d-b871-bd2908f3a71f', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/uk935/ros2_ws/install/my_robot_bringup:/home/uk935/ros2_ws/install/my_py_pkg:/home/uk935/ros2_ws/install/my_robot_interfaces:/home/uk935/ros2_ws/install/battery_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/uk935/dev_ws/src/build/my_bot', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/uk935/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/uk935/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/uk935/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/uk935/ros2_ws/install/my_robot_bringup:/home/uk935/ros2_ws/install/my_robot_interfaces:/home/uk935/ros2_ws/install/battery_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/uk935/ros2_ws/install/my_py_pkg:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.099365] (-) TimerEvent: {}
+[0.199899] (-) TimerEvent: {}
+[0.300337] (-) TimerEvent: {}
+[0.400745] (-) TimerEvent: {}
+[0.501301] (-) TimerEvent: {}
+[0.601730] (-) TimerEvent: {}
+[0.702200] (-) TimerEvent: {}
+[0.802629] (-) TimerEvent: {}
+[0.825439] (my_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.902859] (-) TimerEvent: {}
+[1.003137] (-) TimerEvent: {}
+[1.103474] (-) TimerEvent: {}
+[1.203969] (-) TimerEvent: {}
+[1.304496] (-) TimerEvent: {}
+[1.404944] (-) TimerEvent: {}
+[1.505364] (-) TimerEvent: {}
+[1.605788] (-) TimerEvent: {}
+[1.706241] (-) TimerEvent: {}
+[1.806664] (-) TimerEvent: {}
+[1.907121] (-) TimerEvent: {}
+[2.007579] (-) TimerEvent: {}
+[2.108140] (-) TimerEvent: {}
+[2.208721] (-) TimerEvent: {}
+[2.309387] (-) TimerEvent: {}
+[2.409793] (-) TimerEvent: {}
+[2.510174] (-) TimerEvent: {}
+[2.610630] (-) TimerEvent: {}
+[2.711148] (-) TimerEvent: {}
+[2.811668] (-) TimerEvent: {}
+[2.912109] (-) TimerEvent: {}
+[3.012657] (-) TimerEvent: {}
+[3.113128] (-) TimerEvent: {}
+[3.213694] (-) TimerEvent: {}
+[3.314297] (-) TimerEvent: {}
+[3.414902] (-) TimerEvent: {}
+[3.515383] (-) TimerEvent: {}
+[3.615769] (-) TimerEvent: {}
+[3.716100] (-) TimerEvent: {}
+[3.813239] (my_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.816485] (-) TimerEvent: {}
+[3.916770] (-) TimerEvent: {}
+[4.017114] (-) TimerEvent: {}
+[4.117617] (-) TimerEvent: {}
+[4.218210] (-) TimerEvent: {}
+[4.318924] (-) TimerEvent: {}
+[4.419399] (-) TimerEvent: {}
+[4.519841] (-) TimerEvent: {}
+[4.620294] (-) TimerEvent: {}
+[4.720644] (-) TimerEvent: {}
+[4.820982] (-) TimerEvent: {}
+[4.921342] (-) TimerEvent: {}
+[5.021667] (-) TimerEvent: {}
+[5.122063] (-) TimerEvent: {}
+[5.222470] (-) TimerEvent: {}
+[5.323013] (-) TimerEvent: {}
+[5.423593] (-) TimerEvent: {}
+[5.524121] (-) TimerEvent: {}
+[5.624598] (-) TimerEvent: {}
+[5.725129] (-) TimerEvent: {}
+[5.825623] (-) TimerEvent: {}
+[5.926014] (-) TimerEvent: {}
+[6.026290] (-) TimerEvent: {}
+[6.126657] (-) TimerEvent: {}
+[6.227024] (-) TimerEvent: {}
+[6.327638] (-) TimerEvent: {}
+[6.428171] (-) TimerEvent: {}
+[6.519527] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.528552] (-) TimerEvent: {}
+[6.628987] (-) TimerEvent: {}
+[6.729412] (-) TimerEvent: {}
+[6.829890] (-) TimerEvent: {}
+[6.930452] (-) TimerEvent: {}
+[7.030884] (-) TimerEvent: {}
+[7.131362] (-) TimerEvent: {}
+[7.231883] (-) TimerEvent: {}
+[7.332378] (-) TimerEvent: {}
+[7.432830] (-) TimerEvent: {}
+[7.452489] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.467921] (my_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.470922] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.472737] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.533032] (-) TimerEvent: {}
+[7.633417] (-) TimerEvent: {}
+[7.733847] (-) TimerEvent: {}
+[7.834343] (-) TimerEvent: {}
+[7.875104] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.934561] (-) TimerEvent: {}
+[8.035036] (-) TimerEvent: {}
+[8.135652] (-) TimerEvent: {}
+[8.236170] (-) TimerEvent: {}
+[8.336522] (-) TimerEvent: {}
+[8.436877] (-) TimerEvent: {}
+[8.537431] (-) TimerEvent: {}
+[8.637869] (-) TimerEvent: {}
+[8.725673] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.733327] (my_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.733448] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.734007] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.738065] (-) TimerEvent: {}
+[8.775319] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[8.838282] (-) TimerEvent: {}
+[8.938723] (-) TimerEvent: {}
+[8.948900] (my_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[9.039038] (-) TimerEvent: {}
+[9.118508] (my_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.139219] (-) TimerEvent: {}
+[9.219710] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[9.239580] (-) TimerEvent: {}
+[9.340109] (-) TimerEvent: {}
+[9.399466] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.416536] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.416906] (my_bot) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[9.420355] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.423218] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.432518] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.439674] (my_bot) StdoutLine: {'line': b'-- Configuring done (9.3s)\n'}
+[9.440320] (-) TimerEvent: {}
+[9.450489] (my_bot) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[9.456503] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/uk935/dev_ws/src/build/my_bot\n'}
+[9.462737] (my_bot) CommandEnded: {'returncode': 0}
+[9.464113] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[9.464149] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/uk935/dev_ws/src/build/my_bot', '--', '-j16', '-l16'], 'cwd': '/home/uk935/dev_ws/src/build/my_bot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'uk935', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/uk935/ros2_ws/install/my_robot_interfaces/lib:/home/uk935/ros2_ws/install/battery_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{f9616251-eacc-56f0-84c4-5ba65a5b034d}', 'HOME': '/home/uk935', 'OLDPWD': '/home/uk935/dev_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/uk935/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'uk935', 'NAME': 'DESKTOP-NGMI2BI', 'WSL_INTEROP': '/run/WSL/470_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/uk935/.local/bin:/home/uk935/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/uk935/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/uk935/anaconda3:/mnt/c/Users/uk935/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/uk935/anaconda3/Library/usr/bin:/mnt/c/Users/uk935/anaconda3/Library/bin:/mnt/c/Users/uk935/anaconda3/Scripts:/mnt/c/Users/uk935/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/uk935/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/uk935/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/uk935/OneDrive:/mnt/c/Users/uk935/OneDrive/Documents/adobe illus:/mnt/c/MinGW/bin:/snap/bin', 'WT_SESSION': 'd2fd30e5-e116-477d-b871-bd2908f3a71f', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/uk935/ros2_ws/install/my_robot_bringup:/home/uk935/ros2_ws/install/my_py_pkg:/home/uk935/ros2_ws/install/my_robot_interfaces:/home/uk935/ros2_ws/install/battery_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/uk935/dev_ws/src/build/my_bot', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/uk935/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/uk935/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/uk935/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/uk935/ros2_ws/install/my_robot_bringup:/home/uk935/ros2_ws/install/my_robot_interfaces:/home/uk935/ros2_ws/install/battery_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/uk935/ros2_ws/install/my_py_pkg:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[9.503344] (my_bot) CommandEnded: {'returncode': 0}
+[9.504757] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[9.517596] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/uk935/dev_ws/src/build/my_bot'], 'cwd': '/home/uk935/dev_ws/src/build/my_bot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'uk935', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/uk935/ros2_ws/install/my_robot_interfaces/lib:/home/uk935/ros2_ws/install/battery_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{f9616251-eacc-56f0-84c4-5ba65a5b034d}', 'HOME': '/home/uk935', 'OLDPWD': '/home/uk935/dev_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/uk935/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'uk935', 'NAME': 'DESKTOP-NGMI2BI', 'WSL_INTEROP': '/run/WSL/470_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/uk935/.local/bin:/home/uk935/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/uk935/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/uk935/anaconda3:/mnt/c/Users/uk935/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/uk935/anaconda3/Library/usr/bin:/mnt/c/Users/uk935/anaconda3/Library/bin:/mnt/c/Users/uk935/anaconda3/Scripts:/mnt/c/Users/uk935/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/uk935/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/uk935/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/uk935/OneDrive:/mnt/c/Users/uk935/OneDrive/Documents/adobe illus:/mnt/c/MinGW/bin:/snap/bin', 'WT_SESSION': 'd2fd30e5-e116-477d-b871-bd2908f3a71f', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/uk935/ros2_ws/install/my_robot_bringup:/home/uk935/ros2_ws/install/my_py_pkg:/home/uk935/ros2_ws/install/my_robot_interfaces:/home/uk935/ros2_ws/install/battery_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/uk935/dev_ws/src/build/my_bot', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/uk935/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/uk935/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/uk935/ros2_ws/install/battery_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/uk935/ros2_ws/install/my_robot_bringup:/home/uk935/ros2_ws/install/my_robot_interfaces:/home/uk935/ros2_ws/install/battery_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/uk935/ros2_ws/install/my_py_pkg:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[9.524803] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.525278] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.526113] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[9.533448] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[9.540607] (-) TimerEvent: {}
+[9.542052] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[9.550727] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[9.559784] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[9.570704] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[9.582008] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[9.593476] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[9.605054] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/environment/path.sh\n'}
+[9.616935] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[9.625816] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/local_setup.bash\n'}
+[9.632186] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/local_setup.sh\n'}
+[9.640236] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[9.640842] (-) TimerEvent: {}
+[9.648280] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[9.656814] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/package.dsv\n'}
+[9.663137] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[9.669259] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[9.676052] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[9.683148] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/package.xml\n'}
+[9.690998] (my_bot) CommandEnded: {'returncode': 0}
+[9.735637] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[9.738054] (-) EventReactorShutdown: {}

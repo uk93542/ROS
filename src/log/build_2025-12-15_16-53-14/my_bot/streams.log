@@ -1,0 +1,52 @@
+[0.023s] Invoking command in '/home/uk935/dev_ws/src/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uk935/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake /home/uk935/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uk935/dev_ws/src/install/my_bot
+[0.826s] -- The C compiler identification is GNU 13.3.0
+[3.813s] -- The CXX compiler identification is GNU 13.3.0
+[6.520s] -- Detecting C compiler ABI info
+[7.453s] -- Detecting C compiler ABI info - done
+[7.468s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.471s] -- Detecting C compile features
+[7.473s] -- Detecting C compile features - done
+[7.875s] -- Detecting CXX compiler ABI info
+[8.726s] -- Detecting CXX compiler ABI info - done
+[8.733s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.733s] -- Detecting CXX compile features
+[8.734s] -- Detecting CXX compile features - done
+[8.775s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[8.949s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[9.119s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.220s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[9.400s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.417s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.417s] -- Configured 'flake8' exclude dirs and/or files: 
+[9.420s] -- Added test 'lint_cmake' to check CMake code style
+[9.423s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.433s] -- Added test 'xmllint' to check XML markup files
+[9.440s] -- Configuring done (9.3s)
+[9.451s] -- Generating done (0.0s)
+[9.456s] -- Build files have been written to: /home/uk935/dev_ws/src/build/my_bot
+[9.463s] Invoked command in '/home/uk935/dev_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uk935/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake /home/uk935/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/uk935/dev_ws/src/install/my_bot
+[9.464s] Invoking command in '/home/uk935/dev_ws/src/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uk935/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/uk935/dev_ws/src/build/my_bot -- -j16 -l16
+[9.504s] Invoked command in '/home/uk935/dev_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uk935/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --build /home/uk935/dev_ws/src/build/my_bot -- -j16 -l16
+[9.518s] Invoking command in '/home/uk935/dev_ws/src/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uk935/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/uk935/dev_ws/src/build/my_bot
+[9.525s] -- Install configuration: ""
+[9.525s] -- Execute custom install script
+[9.526s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/config/empty.yaml
+[9.533s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[9.542s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/launch/rsp.launch.py
+[9.551s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/worlds/empty.world
+[9.560s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[9.571s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[9.582s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[9.593s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[9.605s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/environment/path.sh
+[9.617s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/environment/path.dsv
+[9.626s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/local_setup.bash
+[9.632s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/local_setup.sh
+[9.640s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/local_setup.zsh
+[9.648s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/local_setup.dsv
+[9.657s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/package.dsv
+[9.663s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[9.669s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[9.676s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[9.683s] -- Symlinking: /home/uk935/dev_ws/src/install/my_bot/share/my_bot/package.xml
+[9.691s] Invoked command in '/home/uk935/dev_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uk935/ros2_ws/install/my_py_pkg:/opt/ros/jazzy /usr/bin/cmake --install /home/uk935/dev_ws/src/build/my_bot
